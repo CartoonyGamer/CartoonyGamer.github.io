@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:COCKTAIL;
+	src: url("../fonts/COCKTAIL.TTF") format("truetype");
+}
+
+@font-face{
+	font-family:HolidayInParis;
+	src: url("HolidayInParis.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:Delight Candles;
+	src: url("../fonts/Delight Candles .ttf") format("truetype");
+}
+
+@font-face{
+	font-family:BubbleShine;
+	src: url("../fonts/BubbleShine.ttf") format("truetype");
+}
+
+h1{
+	font-family:BubbleShine;
+}
+
+h6{
+	font-family:COCKTAIL;
+}
+
+h2{
+	font-family:BubbleShine;
+}
+
+h3{
+	font-family:BubbleShine;
+}
+
+h4{
+	font-family:HolidayInParis;
+}
+
+li{
+	font-family:Delight Candles;
+}
+
+p{
+	font-family:BubbleShine;
+}
+
+.nutsubmit{
+	font-family: Delight Candles;
+}

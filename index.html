@@ -3,227 +3,501 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
-	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<!-- animation -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	
+	<!-- fonts -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	
+	<!-- cards -->
+	<link rel="stylesheet" href="css/style_card.css">
+	
+	<!-- signs -->
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	
+	<!-- link stylebox -->
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	
+	<!-- back to top -->
+	  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+     <link rel="stylesheet" href="css/style.css">
+
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+	  
+	  .carousel-inner01 img {
+    width: 40%;
+    height: 40%;
+  }
+  </style>
 	
 </head>
 
 <body>
-	<div class="content">
-		<div class="section1 ">
-			<div class="nav">
-				<img class="animate__animated animate__jello animate__infinite" src="e5f338cdcc2548b0997d517aa5ed4490.png" alt="weresort">
-				<ul class="navbar menu">
-					<li class="kickhoat">Home</li>
-					<li>About us</li>
-					<li>Entertainments</li>
-					<li>Gallery</li>
-					<li>Events</li>
-					<li>Contacts</li>
-					<li><i class="fa fa-search"></i></li>
-				</ul>
-			</div>
-			<div class="banner1">
-				<img class="animate__animated animate__fadeInLeft" src="95017329_1118018268564645_5238232699356839936_n.jpg" alt="me">
-				<h1 class="animate__animated animate__fadeInLeft">Hi!, I'm Lee Young Hyun</h1>
-				<h4 class="animate__animated animate__fadeInLeft">
-					<i class="fa fa-hand-pointer-o fa-rotate-90"></i>  A student who is currently studying in Arena multimedia.I am currently studying in the second year.
-				</h4>
-				<h4>
-				<ul class="socialmedia">
-					<li class="animate__animated animate__fadeInLeft animate__slower"><img src="facebook.png" alt="facebook"></li>
-					<li class="animate__animated animate__fadeInLeft animate__slower"><img src="Instagram_icon.png" alt="instagram"></li>
-					<li class="animate__animated animate__fadeInLeft animate__slower"><img src="behance2.png" alt="behance"></li>
-				</ul>
-				</h4>
-			</div>
+	
+		<div class="container01">
+			
+		<div class="menu_v">
+			<div class="topnav">
+                <a class="active" href="#nd01">Lục Mục</a>
+                <a href="#nd02">Giới thiệu</a>
+                <a href="#nd03">Giải trí</a>
+                <a href="#nd04">Hình ảnh</a>
+				<a href="#nd05">VIP</a>
+				<a href="#nd06">Điều kiện</a>
+				<a href="#nd07">Liên hệ form</a>
+				<div class="logo">
+				    <img src="image/3487618.png" alt="logo">
+			    </div>
+            </div>
+				
 		</div>
-		<div class="section2 noidung1">
-			<div class="noidung2trai">
-				<img class="animate__animated animate__pulse animate__infinite" src="95017329_1118018268564645_5238232699356839936_n.jpg" alt="me">
-			</div>
-			<div class="noidung2phai">
-				<h1 class="animate__animated animate__heartBeat animate__infinite">About Lee Young Hyun</h1>
-				<h3>I am a student who is studying about art and web designing.</h3>
-				<hr>
-				<p>I currently studying web designing, and even though it is not my strong suit. I'm still trying my best in doing so. Even if means how long will the coding be I'll still trying my best to completed it. I also love to draw, whether it is for the event or not. I really in love with video games, cartoons and anime (except comics and movies).</p>
-				<input class="cta1" type="button" value="Download CV">
-			</div>
+		
+		<!-- noi dung 1 -->
+		<div class="noidung" id="nd01">
+			<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/Resort Suite.jpg" alt="Room" width="100%" >
+      <div class="carousel-caption">
+        <h3>Nhà phòng thoải mái</h3>
+        <p>Sự lộng lẫy tận cùng</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="image/golfbackground.jpg" alt="Fun" width="100%" >
+      <div class="carousel-caption">
+        <h3>Giải trí</h3>
+        <p>Vừa nhiều lựa chọn lại càng vui</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="image/swimming pool.jpg" alt="poolandbeach" width="100%" >
+      <div class="carousel-caption">
+        <h3>Biển và hồ bơi</h3>
+        <p>Giải nhiệt chống nóng</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
 		</div>
-		<div class="section3">
-			<h1 class="animate__animated animate__heartBeat animate__infinite">ACTIVITIES</h1>
-			<h3>HOBBIES.ARTS.WORKS</h3>
-		</div>
-		<div class="section4">
-			<div class="topic4">
-				<h1 class="question4 animate__animated animate__heartBeat animate__infinite">What I usually do?</h1>
-				<h3 class="answer4">While I'm tend to slack off, I also do know one thing or two about being serious.</h3>
-			</div>
-			<div class="activities4">
-				<div class="act1">
-					<h1 class="gaming"><i class="fa fa-gamepad fa-2x animate__animated animate__tada animate__infinite"></i></h1>
-					<h3 class="para4and1">Video Game Art Design</h3>
-					<p>Designing the logo and website for video game company from Japan named Nintendo.</p>
+		
+		<!-- noi dung 2 -->
+		<div class="noidung" id="nd02">
+			<div class="noidung02">
+			<div class="words02">
+			<h3>
+				Chào mừng đến
+			</h3>
+			<h1>
+				Khu Nghỉ dưỡng Vinpearl
+			</h1>
+			<h2>
+				Tại Phú Quốc
+			</h2>
+			<h4>
+				Khu nghỉ mát tốt nhất tại Việt Nam
+			</h4>
+			<h4>
+				Khu nghỉ mát vừa tiện nghi, vừa sảng khoái. Và khi bạn bước vào, bạn cảm giác như mình là một ông vua vậy.
+			</h4>
 				</div>
-				<div class="act1">
-					<h1 class="cartoonime"><i class="fa fa-tv fa-2x animate__animated animate__tada animate__infinite"></i></h1>
-					<h3 class="para4and1">Cartoon/Anime Art Design</h3>
-					<p>Making cartoons/Anime to impress the audience like an artist drawing beautiful arts.</p>
+				
+				<div class="pics02">
+				    <img src="image/thatsme.jpg" alt="me">
+					<h3 class="gioithieu">Giới thiệu</h3>
+					<h3 class="gioithieu">Tôi là</h3>
+			        
+					<h1 class="gioithieu2">Lee Hyun</h1>
+			    </div>
 				</div>
-				<div class="act1">
-					<h1 class="artworks"><i class="fa fa-paint-brush fa-2x animate__animated animate__tada animate__infinite"></i></h1>
-					<h3 class="para4and1">Artwork creations</h3>
-					<p>Creating my own characters and in the occasion drawing fan arts too.</p>
+			
+			</div>
+		
+		<!-- noi dung 3 -->
+		    <div class="noidung" id="nd03">
+				
+				<div class="cards">
+					<h1>Giải trí</h1>
+
+  <div class="card">
+    <div class="card__image-holder">
+      <img class="card__image" src="image/6412.jpg" alt="golf"/>
+    </div>
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          Chơi gôn
+          <small>vui chơi, thể dục</small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description">
+        Bạn muốn xem khung cảnh, vui chơi và tập thể dục cùng một lúc? Hãy thử chơi gôn, nơi bạn có thể thử thách bản thân, gia đình hoặc bạn bè của mình về kỹ năng chơi gôn!
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+          <a href="#" class="btn">Đọc tiếp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card__image-holder">
+      <img class="card__image" src="image/beautiful-spa-composition-massage-table-wellness-center-copyspace.jpg" alt="spa" />
+    </div>
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          Spa và mát-xa
+          <small>Thoải mái, thư giãn</small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description">
+        Cảm thấy mệt? Hãy tự thưởng cho mình một ngày spa tuyệt vời trong phòng spa tốt nhất Việt Nam.
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+          <a href="#" class="btn">Đọc tiếp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card__image-holder">
+      <img class="card__image" src="image/vin10.png" alt="underwater" />
+    </div>
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          VinpearLand
+          <small>Vui chơi tột cùng</small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description">
+        Giống như khu công viên giải trí như Nintendo World, Universal World hay Disney World. Khu vực này đầy
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+          <a href="#" class="btn">Đọc tiếp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card__image-holder">
+      <img class="card__image" src="https://source.unsplash.com/300x225/?desert" alt="desert" />
+    </div>
+    <div class="card-title">
+      <a href="#" class="toggle-info btn">
+        <span class="left"></span>
+        <span class="right"></span>
+      </a>
+      <h2>
+          Bãi biển
+          <small>Giải nhiệt sảng khoái</small>
+      </h2>
+    </div>
+    <div class="card-flap flap1">
+      <div class="card-description">
+        Cũng là lý do tại sao rất nhiều khu nghỉ mát lại được yêu thích như vậy.
+      </div>
+      <div class="card-flap flap2">
+        <div class="card-actions">
+          <a href="#" class="btn">Đọc tiếp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+				
+			</div>
+		
+		<!-- noi dung 4 -->
+		<div class="noidung" id="nd04">
+					<div class="pic">
+						<div class="words">
+							<h1>Portfolio</h1>
+							<h6>
+								Đây là tất cả những hình ảnh của một số hoạt động vui chơi mà bạn có thể tìm thấy.
+							</h6>
+						</div>
+			
+			<div class="pic_item">
+				<a class="example-image-link" href="image/193794623.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/193794623.jpg" width="100%" alt="193794623.jpg"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
 				</div>
-			</div>
-		</div>
-		<div class="section5">
-			<h1 class="animate__animated animate__heartBeat animate__infinite">My art gallery</h1>
-			<h3>CHECK IT OUT!</h3>
-		</div>
-		<div class="section6">
-			<div class="galleryanh">
-				<div class="item item1"></div>
-				<div class="item item2"></div>
-				<div class="item item3"></div>
-				<div class="item item4"></div>
-				<div class="item item5"></div>
-				<div class="item item6"></div>
-				<div class="item item7"></div>
-				<div class="item item8"></div>
-				<div class="item item9"></div>
-			</div>
-		</div>
-		<div class="section7">
-			<div class="myqualification">
-				<h3>My Qualification</h3>
-				<h1 class="animate__animated animate__heartBeat animate__infinite">Awesome Journey</h1>
-			</div>
-			<div class="wholeex">
-			<div class="education">
-				<h3><i class="fa fa-graduation-cap"></i> Education</h3>
-				<hr>
-				<h4><i class="fa fa-arrow-right"></i> International Primary School</h4>
-				<h5>2005-2009</h5>
-				<h4><i class="fa fa-arrow-right"></i> Horizon International Bilingual School</h4>
-				<h5>2009-2017</h5>
-			</div>
-			<div class="experience">
-				<h3><i class="fa fa-suitcase"></i> Experience</h3>
-				<hr>
-				<h4><i class="fa fa-arrow-right"></i> International University</h4>
-				<h5>2017-2020</h5>
-				<h4><i class="fa fa-arrow-right"></i> Arena Multimedia</h4>
-				<h5>2020-current</h5>
-			</div>
-			</div>
-			<div class="logoschool">
-				<div class="school1"><img src="horizon.png" alt="HIBS"></div>
-				<div class="school2"><img src="IU.png" alt="IU"></div>
-				<div class="school3"><img src="arenamultimedia.png" alt="ARENA"></div>
-			</div>
-		</div>
-		<div class="section8">
-			<h3 class="title8">Specialty</h3>
-			<h1 class="offer8 animate__animated animate__heartBeat animate__infinite">What I offer</h1>
-			<div class="specialty">
-			<div class="commission">
-				<h1><i class="fa fa-pinterest-square fa-2x"></i></h1>
-				<h2>Art Commission</h2>
-				<p>If you want to know what is like to have your characters you love drawn by someone and you actually paid for it, then you are in luck as my arts are way better than anything Butch Hartman the plagiarizer will ever do.</p>
-			</div>
-			<div class="wdesign">
-				<h1><i class="fa fa-desktop fa-2x"></i></h1>
-				<h2>Web Design</h2>
-				<p>Want to know how to create your own basic website? Then I will be the one who will help you.</p>
 			</div>
 			
-			<div class="html">
-				<h1><i class="fa fa-code fa-2x"></i></h1>
-				<h2>HTML/CSS</h2>
-				<p>If you think of web design, you probably think of html/css. As it is the base ingredient for website design.</p>
+			<div class="pic_item">
+				<a class="example-image-link" href="image/tranh dep.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/tranh dep.jpg" width="100%" alt="congvien"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
 			</div>
-			<div class="photoshop">
-				<h1><i class="fa fa-edit fa-2x"></i></h1>
-				<h2>Photoshop</h2>
-				<p>Editing pictures? Creating a advertisement or any entertainment poster? Cuz I'm here to create and edit.</p>
+			
+			<div class="pic_item">
+				<a class="example-image-link" href="image/hoboi.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/hoboi.jpg" width="100%" alt="hoboi"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
 			</div>
-			<div class="illustrator">
-				<h1><i class="fa fa-image fa-2x"></i></h1>
-				<h2>Illustrating</h2>
-				<p>Creating an art also involving creating a good story, in which I somewhat familiar with, but still learning.</p>
+			
+			<div class="pic_item">
+				
+				<a class="example-image-link" href="image/safari.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/safari.jpg" width="100%" alt="safari"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
+				
 			</div>
-			<div class="photography">
-				<h1><i class="fa fa-camera fa-2x"></i></h1>
-				<h2>Photography</h2>
-				<p>Photography also another form of art as well, and I know the basics about how to take a good pictures for the guests.</p>
+						
+									
+			
+		</div>
+			
+			<div class="pic">
+							<div class="pic_item">
+				<a class="example-image-link" href="image/193794623.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/193794623.jpg" width="100%" alt="193794623.jpg"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
+			</div>
+			
+			<div class="pic_item">
+				<a class="example-image-link" href="image/tranh dep.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/tranh dep.jpg" width="100%" alt="congvien"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
+			</div>
+			
+			<div class="pic_item">
+				<a class="example-image-link" href="image/hoboi.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/hoboi.jpg" width="100%" alt="hoboi"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
+			</div>
+			
+			<div class="pic_item">
+				
+				<a class="example-image-link" href="image/safari.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="image/safari.jpg" width="100%" alt="safari"/></a>
+				<div class="icon">
+					<center>
+					     <i class="fa fa-search" style="font-size:36px"></i>
+					</center>
+				</div>
+				
 			</div>
 			</div>
 		</div>
-		<div class="section9">
-			<ul class="navbar menu">
-				<h3 class="title8">Specialty</h3>
-			    <h1 class="offer8 animate__animated animate__heartBeat animate__infinite">What I offer</h1>
-					<li class="kickhoat">All Projects</li>
-					<li>Web Design</li>
-					<li>Ilustration</li>
-					<li>Photography</li>
-				</ul>
-			<div class="pic9">
-			<div class="webdesign1">
-				<img src="jalapenos-red-pepper-mascot-logo.jpg" alt="jalapeno">
+			
+		<!-- noi dung 5 -->
+		<div class="noidung" id="nd05">
+			<div class="feature">
+				<!-- card -->
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="image/anita-lyri-ykjDm0UfbCc-unsplash.jpg" alt="plane" style="width:280px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="chu1">
+		  Chở bằng máy bay nhanh chóng, tiện lợi.
+		</h1> 
+      <p class="chu01">
+		  Đa phần khi đi đến đảo thì thường là dùng thuyền, nhưng cũng có thể là đi bằng máy bay cho nó nhanh.
+		</p> 
+    </div>
+  </div>
+</div>
+<!-- End card -->
+				
+				<!-- card -->
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="image/117770-OPDO7Z-60.jpg" alt="wifi" style="width:280px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="chu1">Wifi miễn phí</h1> 
+      <p class="chu01">Có thể dùng mạng bất cứ lúc nào mà ko cần phải tính tiền</p> 
+    </div>
+  </div>
+</div>
+<!-- End card -->
+				
+				<!-- card -->
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="image/adam-winger-W1t5IiN0nOQ-unsplash.jpg" alt="roomsuite" style="width:280px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="chu1">Phòng đẹp</h1> 
+      <p class="chu01">Đẹp, thoải mái, sạch sẽ</p> 
+    </div>
+  </div>
+</div>
+<!-- End card -->
+				
 			</div>
-			<div class="webdesign2">
-				<img src="logo-central-coffee.png" alt="coffee">
+			
+						<div class="feature">
+				<!-- card -->
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="image/rumman-amin-nKs-oXRGGEg-unsplash.jpg" alt="buffet" style="width:280px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="chu1">Buffet</h1> 
+      <p class="chu01">Sự lựa chọn vừa vô tận, vừa ngon miệng</p> 
+    </div>
+  </div>
+</div>
+<!-- End card -->
+				
+				<!-- card -->
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="image/aleksandra-sapozhnikova-0hTQPYMxciw-unsplash.jpg" alt="amusement" style="width:280px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="chu1">Vinpearl Land</h1> 
+      <p class="chu01">Công viên giải trí nhất Việt Nam, vua72 đẹp và hấp dẫn như Nintendo World, Univresal Park, Disneyland</p> 
+    </div>
+  </div>
+</div>
+<!-- End card -->
+				
+				<!-- card -->
+				<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="image/vinwonders-nam-hoi-an-3_1630121543.jpg" alt="watermusic" style="width:280px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 class="chu1">Nhạc nước Opera</h1> 
+      <p class="chu01">Giống như hát opera nhưng với sự biểu diễn của nước</p> 
+    </div>
+  </div>
+</div>
+<!-- End card -->
+				
 			</div>
-			<div class="illustration1">
-				<img src="Lee Young Hyun-D2010K1-Homework part 2 Were-Source.jpg" alt="wereresort">
-			</div>
-			<div class="illustration2">
-				<img src="Lee Young Hyun_D2010K1_Samurai and Sorceress-01.jpg" alt="sns">
-			</div>
-			<div class="photography1">
-				<img src="Beer.jpg" alt="beer">
-			</div>
-			<div class="photography2">
-				<img src="Tetris building-01.jpg" alt="tetris">
-			</div>
-			</div>	
 		</div>
-		<div class="section10">
-			<h3 class="title8">Testimonial</h3>
-			<h1 class="offer8 animate__animated animate__heartBeat animate__infinite">My Client Saying</h1>
-			<div class="testimonial">
-				<div class="treyandmatt">
-					<div class="southpark">
-						<h1><img src="treyandmatt.jpg" alt="mattandtrey"></h1>
-					</div>
-					
-				<div class="southparkpara">	
-				<h1>Matt and Trey</h1>
-				<h3>Creators of South Park</h3>
-				<p>
-					Truly a testiment when it comes to creating and editing arts. He's also shares common traits with us.
-				</p>
-				</div>
+			
+		<!-- noi dung 6 -->
+		<div class="noidung" id="nd06">
+			
+			<div class="ser">
+				
+				<div id="demo1" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+    <li data-target="#demo1" data-slide-to="1"></li>
+    <li data-target="#demo1" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner01">
+    <div class="carousel-item active" style="height: 500px; background-color: orange;">
+      
+		<div class="carousel-caption">
+			<img src="image/Gordon Ramsay.jpg" alt="GordonRamsay">
+        <h3 class="chu1">Gordon Ramsay</h3>
+        <p class="chu01">Tôi đã đến rất nhiều chỗ ở Việt Nam, nhưng lại chưa bao giờ thay61 sự hấp dẫn của khách sạnnay2</p>
+      </div> 
+    </div>
+    <div class="carousel-item" style="height: 500px; background-color: orange;">
+      
+		<div class="carousel-caption">
+			<img src="image/nc3pzvpvnm72ftpzamqh.jpg" alt="Sia">
+        <h3 class="chu1">Sia</h3>
+        <p class="chu01">Gia đình chúng tôi rất yêu thích khu nghỉ mát này</p>
+      </div> 
+    </div>
+    <div class="carousel-item" style="height: 500px; background-color: orange;">
+      
+		<div class="carousel-caption">
+			<img src="image/Ricky Gervais.jpg" alt="RickyGervais">
+        <h3 class="chu1">Ricky Gervais</h3>
+        <p class="chu01">Phục vụ ở đây cực kỳ tốt và thân thiện</p>
+      </div> 
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+				
 			</div>
-			<div class="shigerumiyamoto">
-				<div class="nintendo">
-						<h1><img src="Miyamoto1.jpg" alt="nintendoead"></h1>
-				</div>
-				<div class="nintendocreates">
-					
-				<h1>Shigeru Miyamoto</h1>
-				<h3>Creator of Mario, Zelda, Donkey Kong</h3>
-				<p>
-					This shows how beautiful the service he is doing for our company.
-				</p>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="section11">
+			
+		</div>	
+		
+	</div>
+			
+			<!-- noi dung 3 -->
+			<div class="noidung" id="nd07">
+						<div class="section11">
 			<div class="demotable">
 			<div class="demotable2">
 		<h1 class="animate__animated animate__heartBeat animate__infinite">GET IN TOUCH</h1>
@@ -252,6 +526,7 @@
 				    
 				    <input class="dientext" type="text" placeholder="Message">
 				</td>
+				
 			</tr>
 			
 			<tr style="text-align: center">
@@ -278,22 +553,62 @@
 				</div>
 		</div>
 	</div>
-		<div class="section12">
+			</div>
+			
+					<div class="section12">
 			<ul>
 			    <li class="leftsideinfo">Contact Us: 0909600427</li>
 			    <li class="leftsideinfo">Website: CartoonyGamer.github.io</li>
 			</ul>
 			
 			<div class="bsthinhanh">
-			    <img class= "animate__animated animate__pulse animate__infinite" src="e5f338cdcc2548b0997d517aa5ed4490.png" alt="logo">
+			    <img class= "animate__animated animate__pulse animate__infinite" src="image/3487618.png" alt="logo">
 		    </div>
 			<div class="words">
 				<h5 class="words1">© 2021 Cartoony. Entertainments are property of their respective owners.</h5>
                 <h5 class="words2">CartoonyGamer Inc. | Headquarters are in Ho Chi Minh City, Vietnam | Support</h5>
 			</div>
 		</div>
-		</div>	
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+			
+	</div>
+	<!-- menu doc -->
+
+	
+	<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+	
+	<!-- nut doc -->
+	<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+	
+	<!-- partial -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script  src="js/script_card.js"></script>
+	
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+			
+			<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	
 	<script>
 		  var typed2 = new Typed('#typed2', {
@@ -304,5 +619,22 @@
     loop: true
   });
 	</script>
+	
+	<script>
+		$("#restart").queue(function() {  
+    var original = $(this);
+    var newClass = original.clone(true);
+    setInterval(function() {
+        original.before(newClass);
+        $("." + original.attr("class") + ":last").remove();
+    },47000);
+});
+	</script>
+
+	<!-- script to top -->
+	
+	<a href="#" class="cd-top text-replace js-cd-top">Top</a>
+	<script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="js/main.js"></script>
 </body>
 </html>
