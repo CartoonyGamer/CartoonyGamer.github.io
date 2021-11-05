@@ -28,22 +28,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
 	height: 120vh;
 	font-size: 40pt;
 	color: darkblue;
-	padding: 130px;
 	box-sizing: border-box;
 	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
 	text-transform: uppercase;
 	background-position: center;
 }
 
-.carousel .slide
+.carousel
 {
 	background-size: cover;
+	width: 100%;
 }
 
 .carousel-inner img{
 	height: 200px;
+	width: 100%;
 	background-size: cover;
 }
+
+
 
 /*button*/
 .btn {
@@ -62,7 +65,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
 /* Nội dung 2 */
 .pics02 img{
 	width: 600px;
-	clip-path: circle();
+	
 }
 
 .pic02{
@@ -78,18 +81,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', end
 
 .pics02 .gioithieu2{
 	text-align: center;
+	margin-left: 25%;
+	font-size: 25px;
 }
 
 .noidung02{
 	padding: 10% 20%;
 	display: flex;
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
-background: rgb(255,168,76); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
      background-size: cover;
+	background-color:darkcyan;
 }
 
 .noidung02 .words02{
@@ -103,7 +103,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
 
 .pics02 .gioithieu{
 	font-size: 25px;
+	margin-top: 5%;
 }
+
 
 .words02 .cta1{
 	padding: 10px 30px;
@@ -120,6 +122,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
 	font-size: 70px;
 }
 
+.cards{
+	padding: 10%;
+	top: 50%;
+}
+
 .words h1{
 	font-size:70px;
 }
@@ -131,9 +138,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
 }
 
  h1 {
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px darkcyan;
     -webkit-text-fill-color: blue;
   }
+
+.title5 .title05{
+	font-size: 50px;
+	text-align: center;
+	z-index: 1;
+}
+
+.title6 .title06{
+	font-size: 50px;
+	text-align: center;
+	z-index: 1;
+}
+
+.title7 .title07{
+	font-size: 50px;
+	text-align: center;
+	z-index: 1;
+}
 
 /*menu ngang*/
 
@@ -186,8 +211,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
 .pic
 {
 	width: 100%;
-	height: 400px;
-	background-color: #CD5000;
+	height: 360px;
+	background-color: cadetblue;
 	
 }
 
@@ -271,9 +296,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
 {
 	width: 100%;
 	height: 350px;
-	background-color: aquamarine;
+	background: url("../image/1123956.jpg");
 	display: flex;
 	justify-content: center;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	box-sizing: border-box;
 }
 
 /*card*/
@@ -344,12 +373,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', end
 }
 
 #demo1{
-	padding-bottom: 70%;
+	padding-bottom: 40%;
 }
 
 .section11{
 	background-image: url("../image/1123956.jpg");
-	height: 60vh;
+	height: 70vh;
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	box-sizing: border-box;
 }
 
 .demotable{
@@ -468,6 +501,26 @@ input:disabled{
   color: #FFFFFF;
 	margin: 0;
 }
+
+.card03{
+	width: 100%;
+	height: 700px;
+	top: 45%;
+}
+
+.date{
+	font-size: 10px;
+}
+
+.data{
+	font-size: 10px;
+	color: darkblue;
+}
+
+.data .title{
+	color: darkblue;
+}
+
 /* Sets styles and CSS animation values for typing animation*/
 .typing {
   width: 21em; 
