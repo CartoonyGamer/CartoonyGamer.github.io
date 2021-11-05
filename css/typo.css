@@ -46,11 +46,31 @@ h1{
 }
 
 h6{
-	font-family:COCKTAIL;
+	font-family:BubbleShine;
 }
 
 h2{
 	font-family:BubbleShine;
+}
+
+.title2{
+	font-family:COCKTAIL;
+}
+
+.pics02 .gioithieu2{
+	font-family:BubbleShine;
+}
+
+.words h1{
+	font-family:COCKTAIL;
+}
+
+.cards h1{
+	font-family:COCKTAIL;
+}
+
+.topnav{
+	font-family: COCKTAIL;
 }
 
 h3{
@@ -58,7 +78,7 @@ h3{
 }
 
 h4{
-	font-family:HolidayInParis;
+	font-family:BubbleShine;
 }
 
 li{
