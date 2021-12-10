@@ -1,0 +1,238 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/templateFW.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Yubee Ice cream</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="css/bootstrap-4.3.1.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/MAIN-STYLE.css" type="text/css"><link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="css/shop.css" type="text/css">	
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<div class="modal fade" id="shopping-box">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Giỏ hàng</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="cart-row d-flex"> <span class="cart-item cart-header cart-column">ITEM</span> <span class="cart-price cart-header cart-column">PRICE</span> <span class="cart-quantity cart-header cart-column">QUANTITY</span> </div>
+        <div class="cart-items"> </div>
+        <div class="cart-total"> <strong class="cart-total-title">Total</strong><span> $</span> <span class="cart-total-price text-danger">0</span> </div>
+        <!--  <button class="btn btn-primary btn-purchase" type="button" onClick="getURL()">Thanh toán</button>-->
+        <button type="button" class="btn btn-primary btn-purchase" onClick="MM_goToURL('parent','DIW-06 FINAL/html/THANHTOAN.html');return document.MM_returnValue">Thanh toán</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<h1> dat tên cho các thành phần của 1 san phẩm</h1>
+	<header>
+	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top shadow">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><img src="images/logo.png"></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse" id="menu">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+					<li class="nav-item"><a href="SHOP.html" class="nav-link">Shop</a></li>
+					<li class="nav-item dropdown ">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu bg-primary">
+							<a href="our-staff.html" class="dropdown-item">Our Staff</a>
+							<a href="our-recipie.html" class="dropdown-item">Our Recipies</a>
+							<a href="our-prices.html" class="dropdown-item">Our Prices</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Blogs</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+				<div class="navbar-text">
+					<a href="#" data-toggle="modal" data-target="#shopping-box">
+				<i class="fa fa-shopping-cart fa-2x"></i>
+						<span class="text-danger" id="sl">0</span>
+					</a>	
+				<i class="fa fa-search fa-2x ml-3"></i>
+				</div>
+			</div>
+		 </div>
+	</nav>
+	</header>
+	<div class="tieude-trang text-center"><!-- InstanceBeginEditable name="tentrang" --> Shop
+        <p>Index / shop</p>
+	<!-- InstanceEndEditable --></div>
+	<!-- het tieu de trang-->
+	<!-- InstanceBeginEditable name="EditRegion5" -->
+			
+			<!-- InstanceEndEditable --> 
+			
+			<!-- InstanceBeginEditable name="ndung" -->
+			<main>
+			<section class="py-4" >
+		<div class="contactus">
+			<div class="title text-center">
+				<h1>Get in Touch</h1>
+			</div>
+			<div class="box">
+				
+				<!-- Form -->
+				<div class="contact form">
+					<h3>Send a Message</h3>
+					<form>
+						<div class="formBox">
+							<div class="row50">
+								<div class="inputBox">
+									<span>First Name</span>
+									<input type="text" placeholder="First">
+								</div>
+								
+								<div class="inputBox">
+									<span>Last Name</span>
+									<input type="text" placeholder="Last">
+								</div>
+							</div>
+							
+							<div class="row50">
+								<div class="inputBox">
+									<span>Email</span>
+									<input type="text" placeholder="Email">
+								</div>
+								
+								<div class="inputBox">
+									<span>Mobile</span>
+									<input type="text" placeholder="Phone Number">
+								</div>
+							</div>
+							
+							<div class="row100">
+								<div class="inputBox">
+									<span>Message</span>
+									<textarea placeholder="Write your message here..."></textarea>
+								</div>
+							</div>
+							
+							<div class="row100">
+								<div class="inputBox">
+									<input type="submit" value="Send">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				
+				<!-- inforBox -->
+				<div class="contact info">
+					<h3>Contact Info</h3>
+					<div class="infoBox">
+						<div>
+							<span><i class="fa fa-address-book"></i></span>
+							<p>Ho Chi Minh City<br> Vietnam</p>
+						</div>
+						
+						<div>
+							<span><i class="fa fa-envelope"></i></span>
+							<a href="leeyounghyun19994@gmail.com">leeyounghyun19994@gmail.com</a>
+						</div>
+						
+						<div>
+							<span><i class="fa fa-phone"></i></span>
+							<a href="0909600427">0909600427</a>
+						</div>
+					</div>
+					
+					<ul class="sci">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-deviantart"></i></a></li>
+						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+					</ul>
+				</div>
+				
+				<!-- Map -->
+				<div class="contact map">
+					<img src="images/Ho Chi Minh Map.png" alt="hochiminh">
+				</div>
+			</div>
+		</div>
+			</section>
+			
+			</main>
+			<!-- InstanceEndEditable -->
+		</div>
+	</div>
+	
+	
+	
+	
+<footer>
+  <div class="container text-light">
+		<div class="row justify-content-between">
+		<div class="col-md-4">
+			<img src="images/logo-footer.png">
+		  <p class="mt-4">Lorem ipsum dolor sit amet, matti consectetuer adipiscing  suspendisse et justo.  Praesent mattis ugue
+		  </p>
+			<div class="my-3">
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+				</span>
+				<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-info"></i>
+				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+				</span>
+					<span class="fa-stack fa-lg">
+				  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+				  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+				</span>
+			
+			</div>
+			
+			
+			</div>
+		<div class="col-md-3">
+			<h4>Open Hours</h4>
+			<p><b>Monday:</b> Closed </p>
+		<p><b>
+			Tuesday to Friday:</b><br>
+			7:00 AM - 9:00 PM</p>
+			<p><b>Saturday to Sunday:</b><br>11:00 AM - 10:00 PM
+</p>
+			</div>
+		
+		<div class="col-md-4">
+			<h4>Find us</h4>
+		<p>Address:  75/68 Hoang Sa F9, Q3, Tp.HCM</p>
+		</div>
+		</div>
+	</div>
+<div class="row border-top text-light py-4 text-center justify-content-center p-12">
+	Copyright © 2020 Yupee Store. 	
+		
+		</div>
+	</footer>
+	
+	
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+	<script src="js/shop.js"></script>
+</body>
+<!-- InstanceEnd --></html>
